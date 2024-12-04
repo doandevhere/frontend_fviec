@@ -1,3 +1,4 @@
+import { ThemeProvider } from "@/components/theme/theme-provider";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
@@ -21,7 +22,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={clsx(roboto_mono.className, "antialiased")}>
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
