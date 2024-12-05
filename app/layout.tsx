@@ -1,12 +1,12 @@
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import clsx from "clsx";
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const roboto_mono = Roboto_Mono({
-  subsets: ["latin"],
-  display: "swap",
+const roboto = Roboto({
+  weight: ["100", "300", "400", "500", "700", "900"],
+  subsets: ["vietnamese", "latin"],
 });
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={clsx(roboto_mono.className, "antialiased")}>
+      <body className={clsx(roboto.className, "antialiased")}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
