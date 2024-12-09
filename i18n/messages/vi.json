@@ -1,0 +1,14 @@
+{
+  "HomePage": {
+    "title": "Trang chủ",
+    "about": "Về chúng tôi"
+  },
+  "components": {
+    "theme": {
+      "theme-switcher": "Chuyển đổi giao diện",
+      "light": "Sáng",
+      "dark": "Tối",
+      "system": "Hệ thống"
+    }
+  }
+}

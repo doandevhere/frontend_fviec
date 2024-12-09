@@ -1,14 +1,17 @@
-import type { NextConfig } from "next";
 import withBundleAnalyzer from "@next/bundle-analyzer";
+import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+
+const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
 const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
     optimizePackageImports: ["lucide-react"],
-    typedRoutes: true
+    typedRoutes: true,
   },
 };
 
 export default withBundleAnalyzer({
   enabled: process.env.ANALYZE === "true",
-})(nextConfig);
+})(withNextIntl(nextConfig));
