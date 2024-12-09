@@ -1,5 +1,5 @@
-import { routing } from "@/app/i18n/routing";
 import { ThemeProvider } from "@/components/theme/theme-provider";
+import { routing } from "@/i18n/routing";
 import clsx from "clsx";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
