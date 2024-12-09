@@ -2,5 +2,13 @@
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"
+  },
+  "components": {
+    "theme": {
+      "theme-switcher": "Switch theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
   }
 }
