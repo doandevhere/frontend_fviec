@@ -6,6 +6,8 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { Roboto } from "next/font/google";
 import { notFound } from "next/navigation";
 
+import "../globals.css";
+
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
   subsets: ["vietnamese", "latin"],
