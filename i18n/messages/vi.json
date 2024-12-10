@@ -10,5 +10,10 @@
       "dark": "Tối",
       "system": "Hệ thống"
     }
+  },
+  "page": {
+    "job": {
+      "title": "Việc làm"
+    }
   }
 }

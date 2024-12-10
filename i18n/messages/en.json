@@ -10,5 +10,10 @@
       "dark": "Dark",
       "system": "System"
     }
+  },
+  "page": {
+    "job": {
+      "title": "Job"
+    }
   }
 }
