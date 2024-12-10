@@ -14,7 +14,7 @@ import { useTranslations } from "next-intl";
 
 export function ThemeSwitcher() {
   const { setTheme } = useTheme();
-  const t = useTranslations("components.theme");
+  const t = useTranslations("component.theme");
 
   return (
     <DropdownMenu>

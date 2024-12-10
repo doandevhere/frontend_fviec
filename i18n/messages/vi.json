@@ -1,9 +1,5 @@
 {
-  "HomePage": {
-    "title": "Trang chủ",
-    "about": "Về chúng tôi"
-  },
-  "components": {
+  "component": {
     "theme": {
       "theme-switcher": "Chuyển đổi giao diện",
       "light": "Sáng",
@@ -12,6 +8,10 @@
     }
   },
   "page": {
+    "home": {
+      "title": "Trang chủ",
+      "about": "Về chúng tôi"
+    },
     "job": {
       "title": "Việc làm"
     }

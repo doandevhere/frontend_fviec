@@ -1,9 +1,5 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  },
-  "components": {
+  "component": {
     "theme": {
       "theme-switcher": "Switch theme",
       "light": "Light",
@@ -12,6 +8,10 @@
     }
   },
   "page": {
+    "home": {
+      "title": "Home",
+      "about": "About"
+    },
     "job": {
       "title": "Job"
     }
