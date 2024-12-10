@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
     optimizePackageImports: ["lucide-react"],
-    typedRoutes: true,
+    typedRoutes: process.env.NODE_ENV === "development" ? false : true,
   },
 };
 
