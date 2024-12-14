@@ -7,6 +7,7 @@
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "i18n-ally.localesPaths": ["locales", "i18n", "i18n/messages"],
-  "i18n-ally.keystyle": "nested"
+  "i18n-ally.localesPaths": ["i18n"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sourceLanguage": "messages"
 }
